@@ -1,6 +1,0 @@
-{
-    "name": "I'm not a robot",
-    "description" : "Extensão do Google Chrome para executar e extrair informações de páginas Web",
-    "version": "1.0",
-    "manifest_version": 2
- }

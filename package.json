@@ -1,0 +1,31 @@
+{
+  "name": "i-am-not-a-robot",
+  "version": "1.0.0",
+  "description": "Extensão do Google Chrome para executar e extrair informações de páginas Web",
+  "scripts": {
+    "build": "npm run clean && webpack --config webpack.config.js --mode development --progress --colors",
+    "test": "jest --passWithNoTests",
+    "clean": "rimraf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgmrv/i-am-not-a-robot.git"
+  },
+  "keywords": [
+    "chrome-extension",
+    "automation"
+  ],
+  "author": "Bianca Oliveira Carvalho, Valquíria Prestes Belusso, Renan Tashiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bgmrv/i-am-not-a-robot/issues"
+  },
+  "homepage": "https://github.com/bgmrv/i-am-not-a-robot#readme",
+  "devDependencies": {
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.4",
+    "jest": "^24.9.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
+}
