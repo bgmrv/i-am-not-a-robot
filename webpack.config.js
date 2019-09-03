@@ -25,6 +25,9 @@ module.exports = {
       },
       {
         from: "src/manifest.json"
+      },
+      {
+        from: "scenarios/*/*.json"
       }
     ])
   ],
