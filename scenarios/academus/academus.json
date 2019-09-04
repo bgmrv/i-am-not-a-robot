@@ -5,17 +5,17 @@
     },
     {
         "action": "sleep",
-        "value": 2
+        "value": 3
     },
     {
         "action": "input",
         "selector": "#login-username",
-        "value": "FILL_THIS"
+        "value": "renan.tashiro"
     },
     {
         "action": "input",
         "selector": "#login-password",
-        "value": "FILL_THIS"
+        "value": "PETComp2018"
     },
     {
         "action": "click",
