@@ -1,4 +1,7 @@
 node_modules
 npm-debug.log
 dist
+scenarios/*/*.json
 scenarios/*/*.private.json
+!scenarios/*/*.template.json
+package-lock.json

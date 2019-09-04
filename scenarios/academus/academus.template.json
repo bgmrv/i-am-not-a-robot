@@ -5,7 +5,7 @@
     },
     {
         "action": "sleep",
-        "value": 3
+        "value": 2
     },
     {
         "action": "input",
