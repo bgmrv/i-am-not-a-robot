@@ -1,0 +1,40 @@
+[
+    {
+        "action": "redirect",
+        "value": "https://outlook.live.com/mail/inbox?authRedirect=true"
+    },
+    {
+        "action": "sleep",
+        "value": 2
+    },
+    {
+        "action": "click",
+        "selector": "body > header > div > aside > div > nav > ul > li:nth-child(2) > a" 
+    },
+    {
+        "action": "sleep",
+        "value": 2
+    },
+    {
+        "action": "input",
+        "selector": "#i0116",
+        "value": "EMAIL"
+    },
+    {
+        "action": "click",
+        "selector": "#idSIButton9"  
+    },
+    {
+        "action": "sleep",
+        "value": 2
+    },
+    {
+        "action": "input",
+        "selector": "#i0118",
+        "value": "SENHA"
+    },
+    {
+        "action": "click",
+        "selector": "#idSIButton9"  
+    }    
+]
