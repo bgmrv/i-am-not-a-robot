@@ -1,0 +1,35 @@
+[
+    {
+        "action": "redirect",
+        "value": "https://docs.google.com/forms/d/e/1FAIpQLScc6uIc1wRebPm3KCuXEEXp6RFZQoGz_yNJbWVU3mIf_u4mMA/viewform?usp=sf_link"
+    },
+    {
+        "action": "sleep",
+        "value": 3
+    },
+    {
+        "action": "input",
+        "selector": "#mG61Hd > div > div.freebirdFormviewerViewFormContent > div.freebirdFormviewerViewItemList > div:nth-child(1) > div > div.freebirdFormviewerViewItemsTextItemWrapper > div > div.quantumWizTextinputPaperinputMainContent.exportContent > div > div.quantumWizTextinputPaperinputInputArea > inpute",
+        "value": "email"
+    },
+    {
+        "action": "input",
+        "selector": "#mG61Hd > div > div.freebirdFormviewerViewFormContent > div.freebirdFormviewerViewItemList > div:nth-child(2) > div > div.freebirdFormviewerViewItemsTextItemWrapper > div > div.quantumWizTextinputPaperinputMainContent.exportContent > div > div.quantumWizTextinputPaperinputInputArea > input",
+        "value": "Nome Completo"
+    },
+
+    {
+        "action": "click",
+        "selector": "#mG61Hd > div > div.freebirdFormviewerViewFormContent > div.freebirdFormviewerViewItemList > div:nth-child(3) > div > div.quantumWizMenuPaperselectEl.docssharedWizSelectPaperselectRoot.freebirdFormviewerViewItemsSelectSelect.freebirdThemedSelectDarkerDisabled > div:nth-child(1) > div.quantumWizMenuPaperselectOptionList > div:nth-child(3)"
+    },
+
+    {
+        "action": "click",
+        "selector": "#mG61Hd > div > div.freebirdFormviewerViewFormContent > div.freebirdFormviewerViewItemList > div:nth-child(3) > div > div.quantumWizMenuPaperselectEl.docssharedWizSelectPaperselectRoot.freebirdFormviewerViewItemsSelectSelect.freebirdThemedSelectDarkerDisabled > div:nth-child(1) > div.quantumWizMenuPaperselectOptionList > div:nth-child(3)"
+    },
+
+    {
+        "action": "click",
+        "selector": "#mG61Hd > div > div.freebirdFormviewerViewFormContent > div.freebirdFormviewerViewNavigationNavControls > div.freebirdFormviewerViewNavigationButtonsAndProgress > div > div > span > span" 
+    }
+]
