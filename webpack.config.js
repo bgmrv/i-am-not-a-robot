@@ -24,6 +24,9 @@ module.exports = {
         from: "src/popup.html",
       },
       {
+        from: "src/popup.js",
+      },      
+      {
         from: "src/manifest.json"
       },
       {

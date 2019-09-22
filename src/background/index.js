@@ -1,10 +1,22 @@
-chrome.browserAction.onClicked.addListener((tab) => {
-  const url = chrome.runtime.getURL("scenarios/academus/academus.json");
-
-  fetch(url)
-    .then((response) => response.json())
-    .then((rotine) => executeRotine({ rotine, tab }));
+chrome.runtime.onMessage.addListener((request) => {
+  chrome.tabs.getAllInWindow(null, (tabs) => {
+    tabs.forEach((tab) => {
+      if (tab.active) {
+        const rotine = JSON.parse(request.rotine);
+        executeRotine({ rotine, tab });
+      }
+    })
+  });
 });
+
+
+// chrome.browserAction.onClicked.addListener((tab) => {
+//   const url = chrome.runtime.getURL("scenarios/academus/academus.json");
+
+//   fetch(url)
+//     .then((response) => response.json())
+//     .then((rotine) => executeRotine({ rotine, tab }));
+// });
 
 function executeRotine({ rotine, tab }) {
   console.lo
