@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo/Aprova Digital 01 Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="3.74939946e-31%" y1="100%" x2="99.7468909%" y2="0.253109056%" id="linearGradient-1">
+            <stop stop-color="#447EFF" offset="0%"></stop>
+            <stop stop-color="#5433FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Logo/Aprova-Digital-01-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-9" stroke="#979797" fill="url(#linearGradient-1)" x="1" y="0" width="300" height="300" rx="30"></rect>
+        <polygon id="Fill-1" fill="#FFFFFF" points="105 81 33 218 118.499565 218 105 190.600706 78.0008691 190.600706 105 135.802117 131.999131 190.600706 145.502173 218 177 218"></polygon>
+        <path d="M204.067137,81 L131,81 L145.613427,108.399294 L152.920141,108.399294 L204.067137,108.399294 L204.067137,108.431047 C204.41642,108.420463 204.769231,108.399294 205.122042,108.399294 C224.717159,108.399294 240.600706,126.801911 240.600706,149.498236 C240.600706,172.198089 224.717159,190.600706 205.122042,190.600706 C204.769231,190.600706 204.41642,190.579537 204.067137,190.568953 L204.067137,190.600706 L189.45371,190.600706 L204.067137,218 C239.376452,218 268,187.330149 268,149.498236 C268,111.669851 239.376452,81 204.067137,81" id="Fill-23" fill="#FFFFFF"></path>
+    </g>
+</svg>

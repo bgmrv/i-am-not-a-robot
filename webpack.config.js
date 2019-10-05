@@ -31,7 +31,19 @@ module.exports = {
       },
       {
         from: "scenarios/*/*.json"
-      }
+      },
+      {
+        from: "dependecias/*.js"
+      },
+      {
+        from: "imagens/*.svg"
+      },
+      {
+        from: "src/settings.html",
+      },
+      {
+        from: "src/settings.js",
+      },
     ])
   ],
   devtool: 'inline-source-map'

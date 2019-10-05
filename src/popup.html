@@ -1,23 +1,108 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="UTF-8">
-  <script src="popup.js"></script>
-  <style>
-    .btn {
-      margin-top: 10px;
-    }
-  </style>
-</head>
-
-<body>
-  <div>
-    <h3>Selecione um Script de execução</h3>
-    <button id="btn" class="btn">Abrir aba</button>
-    <button id="btn2" class="btn">Executar script</button>
-  </div>
-
-</body>
-
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">            
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script src="dependecias/materialize.min.js"></script>
+    <script src="popup.js"></script>
+    <style>
+      body{
+        font-family: 'Lato', sans-serif;
+        height:270px;
+        width:270px;
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 0.5rem
+      }
+      a.btn-floating{
+        background-color: #0065ff;
+         height:28px; 
+         width: 28px; 
+         line-height:28px;
+         padding-right:1px
+      }
+      i.material-icons{
+        line-height:28px;
+        font-size: 1.8rem
+      }
+      hr{
+        color: #0065ff;
+        border: solid;
+        border-bottom-style: none
+      }
+      div.row{
+        margin-bottom: 5px
+      }
+      img{
+        height: 40px;
+        width: 40px
+      }
+      .select-wrapper input.select-dropdown{
+        font-size: 0.9rem;
+      }
+      .dropdown-content li>a, .dropdown-content li>span {
+        font-size: 0.9rem;
+        line-height: 10px;
+        line-height: 0.5rem;
+      }
+      td{
+        font-size: 0.9rem;
+      }
+      
+    </style>
+  </head>
+  <body>
+      <div class="row s1" style="margin-top: 10px" >
+        <div class="col left valign-wrapper" style="padding: 0px">
+         <img src="imagens/logo.svg" alt="Aprova Digital">
+        </div>
+        <div class="col valign-wrapper">
+          <p class="valign" style="color: #0065ff; font-size: 1.3rem">Aprova Digital</h6>
+        </div>
+        <div class="col right" style="margin-top: 5px; padding-left: 0px">
+            <a id="info" class="btn-floating  waves-effect waves-light" title="Ajuda">
+              <i class="material-icons">info_outline</i></a>
+            <a id="settings" class="btn-floating waves-effect waves-light"  title="Configurações">
+              <i class="material-icons"> settings</i></a>
+        </div>
+      </div>
+      <hr>
+      <div class= "row s8" style="margin-left: 5px; margin-right: 5px">
+        <table class = "striped bordered">
+         <thead>
+          <tr>
+            <th class="center" style ="font-size: 1.0rem">Cenários mais utilizados</th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+            <td>Cenario 1</td>
+          </tr>
+            <tr>
+              <td>Cenario 1</td>
+            </tr>
+            <tr>
+              <td>Cenario 1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <div class="row end">
+          <div class="input-field col s10">
+            <select id = "scenarios">
+              <option value="" disabled selected>Selecione o cenário</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+          </div>
+          <div class="col right" style="margin-top: 10px; padding-left: 0px">
+            <a class="btn-floating waves-effect waves-light"  title="Enviar">
+              <i class="material-icons"> send</i></a>
+          </div>
+    </div>
+  </body>
 </html>

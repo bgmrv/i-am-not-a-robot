@@ -1,5 +1,5 @@
 {
-    "name": "I'm not a robot",
+    "name": "Aprova Digital",
     "description" : "Extensão do Google Chrome para executar e extrair informações de páginas Web",
     "version": "1.0.0",
     "background": {
@@ -13,8 +13,12 @@
         }
     ],
     "browser_action": {
+        "default_title": "Aprova Digital",
         "default_popup": "popup.html"
     },
-    "permissions": ["activeTab", "tabs"],
+    "permissions": [
+          "activeTab",
+        "tabs"
+    ],
     "manifest_version": 2
- }
+}
