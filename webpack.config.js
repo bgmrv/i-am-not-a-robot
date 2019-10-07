@@ -24,10 +24,34 @@ module.exports = {
         from: "src/popup.html",
       },
       {
+        from: "src/popup.js",
+      },      
+      {
         from: "src/manifest.json"
       },
       {
         from: "scenarios/*/*.json"
+      },
+      {
+        from: "scenarios/*.json"
+      },
+      {
+        from: "dependecias/*.js"
+      },
+      {
+        from: "imagens/*"
+      },
+      {
+        from: "src/settings.html",
+      },
+      {
+        from: "src/settings.js",
+      },
+      {
+        from: "src/info.html",
+      },
+      {
+        from: "src/info.js",
       }
     ])
   ],

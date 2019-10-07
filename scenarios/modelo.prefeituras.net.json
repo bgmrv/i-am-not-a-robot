@@ -1,0 +1,114 @@
+[
+    {
+        "id": "academus",
+        "name": "Login Academus",
+        "steps": [
+            {
+                "action": "redirect",
+                "value": "https://midas.unioeste.br/login"
+            },
+            {
+                "action": "sleep",
+                "value": 2
+            },
+            {
+                "action": "input",
+                "selector": "#login-username",
+                "value": "FILL_THIS"
+            },
+            {
+                "action": "input",
+                "selector": "#login-password",
+                "value": "FILL_THIS"
+            },
+            {
+                "action": "click",
+                "selector": "body > div.container > div > div:nth-child(2) > div > div.panel-body > form > div.form-group > button"
+                
+            }
+        ]
+    },
+    {
+        "id": "google-forms",
+        "name": "Preencher formulário Google",
+        "steps": [
+            {
+                "action": "redirect",
+                "value": "https://docs.google.com/forms/d/e/1FAIpQLScc6uIc1wRebPm3KCuXEEXp6RFZQoGz_yNJbWVU3mIf_u4mMA/viewform?usp=sf_link"
+            },
+            {
+                "action": "sleep",
+                "value": 3
+            },
+            {
+                "action": "input",
+                "selector": "#mG61Hd > div > div.freebirdFormviewerViewFormContent > div.freebirdFormviewerViewItemList > div:nth-child(1) > div > div.freebirdFormviewerViewItemsTextItemWrapper > div > div.quantumWizTextinputPaperinputMainContent.exportContent > div > div.quantumWizTextinputPaperinputInputArea > inpute",
+                "value": "bianca.c.o@hotmail.com"
+            },
+            {
+                "action": "input",
+                "selector": "#mG61Hd > div > div.freebirdFormviewerViewFormContent > div.freebirdFormviewerViewItemList > div:nth-child(2) > div > div.freebirdFormviewerViewItemsTextItemWrapper > div > div.quantumWizTextinputPaperinputMainContent.exportContent > div > div.quantumWizTextinputPaperinputInputArea > input",
+                "value": "Bianca Oliveira"
+            },
+        
+            {
+                "action": "click",
+                "selector": "#mG61Hd > div > div.freebirdFormviewerViewFormContent > div.freebirdFormviewerViewItemList > div:nth-child(3) > div > div.quantumWizMenuPaperselectEl.docssharedWizSelectPaperselectRoot.freebirdFormviewerViewItemsSelectSelect.freebirdThemedSelectDarkerDisabled > div:nth-child(1) > div.quantumWizMenuPaperselectOptionList > div:nth-child(3)"
+            },
+        
+            {
+                "action": "click",
+                "selector": "#mG61Hd > div > div.freebirdFormviewerViewFormContent > div.freebirdFormviewerViewItemList > div:nth-child(3) > div > div.quantumWizMenuPaperselectEl.docssharedWizSelectPaperselectRoot.freebirdFormviewerViewItemsSelectSelect.freebirdThemedSelectDarkerDisabled > div:nth-child(1) > div.quantumWizMenuPaperselectOptionList > div:nth-child(3)"
+            },
+        
+            {
+                "action": "click",
+                "selector": "#mG61Hd > div > div.freebirdFormviewerViewFormContent > div.freebirdFormviewerViewNavigationNavControls > div.freebirdFormviewerViewNavigationButtonsAndProgress > div > div > span > span" 
+            }
+        ]
+    },
+    {
+        "id": "outlook",
+        "name": "Login Outlook",
+        "steps":[
+            {
+                "action": "redirect",
+                "value": "https://outlook.live.com/mail/inbox?authRedirect=true"
+            },
+            {
+                "action": "sleep",
+                "value": 2
+            },
+            {
+                "action": "click",
+                "selector": "body > header > div > aside > div > nav > ul > li:nth-child(2) > a" 
+            },
+            {
+                "action": "sleep",
+                "value": 2
+            },
+            {
+                "action": "input",
+                "selector": "#i0116",
+                "value": "EMAIL"
+            },
+            {
+                "action": "click",
+                "selector": "#idSIButton9"  
+            },
+            {
+                "action": "sleep",
+                "value": 2
+            },
+            {
+                "action": "input",
+                "selector": "#i0118",
+                "value": "SENHA"
+            },
+            {
+                "action": "click",
+                "selector": "#idSIButton9"  
+            }    
+        ]
+    }
+]
