@@ -36,7 +36,7 @@ module.exports = {
         from: "dependecias/*.js"
       },
       {
-        from: "imagens/*.svg"
+        from: "imagens/*"
       },
       {
         from: "src/settings.html",
