@@ -44,6 +44,12 @@ module.exports = {
       {
         from: "src/settings.js",
       },
+      {
+        from: "src/info.html",
+      },
+      {
+        from: "src/info.js",
+      }
     ])
   ],
   devtool: 'inline-source-map'
