@@ -33,6 +33,9 @@ module.exports = {
         from: "scenarios/*/*.json"
       },
       {
+        from: "scenarios/*.json"
+      },
+      {
         from: "dependecias/*.js"
       },
       {
