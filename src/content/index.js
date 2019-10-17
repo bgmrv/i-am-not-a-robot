@@ -1,4 +1,4 @@
-chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {  
   if (request.action === "input") {
     const input = document.querySelector(request.selector);
     input.value = request.value;
